@@ -31,7 +31,7 @@ async ({event}) => {
 // inngest function to update in database
 export const syncUserUpdation = inngest.createFunction(
     {
-        id:'sync-user-from-clerk'
+        id:'sync-user-from-clerkv2'
         },
         {
             event:'clerk/user.updated'
